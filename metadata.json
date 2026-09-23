@@ -1,0 +1,6 @@
+{
+  "name": "ImageToolBox - Free Online Image Tools",
+  "description": "Fast, 100% private, in-browser image tools: compress, resize, crop, rotate, convert formats, generate favicons, view metadata, and encode to Base64 locally.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

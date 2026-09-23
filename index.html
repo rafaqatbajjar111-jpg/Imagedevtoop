@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>ImageToolBox - Free Online Image Tools</title>
+    <meta
+      name="description"
+      content="Fast, 100% private, in-browser image tools: compress, resize, crop, rotate, convert formats, generate favicons, view metadata, and encode to Base64 locally."
+    />
+    <meta
+      name="keywords"
+      content="online image compressor, image resizer, JPG to PNG, PNG to JPG, WebP converter, image cropper, favicon generator, free image tools, base64 image converter, image rotator"
+    />
+    <meta name="author" content="ImageToolBox" />
+    <meta name="theme-color" content="#FBBF24" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ImageToolBox" />
+    <meta property="og:title" content="ImageToolBox - Free Online Image Tools" />
+    <meta
+      property="og:description"
+      content="Fast, 100% private, in-browser image tools: compress, resize, crop, rotate, convert formats, generate favicons, view metadata, and encode to Base64 locally."
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ImageToolBox - Free Online Image Tools" />
+    <meta
+      name="twitter:description"
+      content="Fast, 100% private, in-browser image tools: compress, resize, crop, rotate, convert formats, generate favicons, view metadata, and encode to Base64 locally."
+    />
+
+    <!-- WebApplication Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ImageToolBox",
+      "url": "https://imagetoolbox.app",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript. Requires HTML5 Canvas support.",
+      "description": "Fast, 100% private in-browser image utility suite: compress, resize, crop, rotate, convert, generate favicons, view EXIF metadata, and encode images locally without server uploads.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Local In-Browser Image Compression",
+        "Interactive Image Resizer",
+        "JPG to PNG Lossless Conversion",
+        "PNG to JPG with Background Fill",
+        "Interactive Image Cropping with Aspect Ratios",
+        "90/180 Degree Image Rotation and Flipping",
+        "Multi-Format Image Converter (JPG, PNG, WebP)",
+        "Multi-Size Favicon Generator (16x16, 32x32, 48x48)",
+        "In-Browser Image EXIF & Metadata Inspector",
+        "Image to Base64 Data URL Converter"
+      ]
+    }
+    </script>
+
+    <!-- FAQPage Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are my images uploaded to any remote server?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Your images are processed directly inside your browser using client-side HTML5 Canvas and Blob APIs. Files never leave your device, ensuring complete privacy and instantaneous processing speeds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is ImageToolBox completely free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, ImageToolBox is 100% free with no registration, no sign-ups, no subscriptions, and no hidden file size limits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which image formats are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ImageToolBox supports common web image formats including JPG/JPEG, PNG, WebP, GIF, SVG, BMP, and ICO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the Image Compressor reduce file size without losing quality?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The compressor employs browser-native lossy and lossless canvas encoding algorithms, eliminating redundant metadata and optimizing color quantization while allowing you to dial in the exact compression level."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white text-zinc-950 font-sans antialiased selection:bg-amber-300 selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
